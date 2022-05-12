@@ -8,46 +8,46 @@
     <title>TeachMe</title>
 </head>
 <body>
-    <form>
-        <h3>> Log in</h3><br />
-        <h2>Hey, Welcome Back !</h2>
-        <br />
-        <br />
-        <center>
-            <button class="botones" type="button">
-                <img src="fotos1/google1.png">
-                Continue with Google
-            </button>
+    <form action="https://formspree.io/f/mpzbkrej" method="post"autocomplete="off">
+        <div>
+            <h3>> Log in</h3><br>
+            <h2>Hey, Welcome Back !</h2>
+            <br>
+            <br>
+            <center>
+                <button class="botones" type="button">
+                    <img src="fotos1/google1.png">
+                    Continue with Google
+                </button>
 
-            <button class="botones" type="button">
-                <img src="fotos1/facebook1.png">
-                Continue with Facebook
-            </button>
-      </center>
-        <br />
-        <br />
+                <button class="botones" type="button">
+                    <img src="fotos1/facebook1.png">
+                    Continue with Facebook
+                </button>
+            </center>
+            <br>
+            <br>
 
-        <center>-OR-</center>
-        <br />
+            <center>- OR -</center>
+            <br>
+        </div>
 
-        <aside>
-            Username / Email<br />
-            <input class="formulario" type="text" required="Oops! Don't forget to fill your user or email.">
-            <br />
-             <br />
-            Password <br />
-            <input class="formulario" type="password" required="Oops! Don't forget to complete with your password.">
-            <br />
-            <br />
-        </aside>
-
-        <a href="">Forgot your password?</a><br />
-        <br />  
-        <center><input id="logIn" type="button" value="LOG IN"></center>  
-        <br />
-        <br />
-            
-        Don't you have an account? <a href="signup.html">Sign up</a>  
+        <label for="user">Username / Email</label><br>
+        <input class="formulario" type="text" name="username" id="nombre de usuario o email" required>
+        <br>
+        <br>
+        <label for="password">Password</label><br>
+        <input class="formulario" type="password" name="password" id="contraseña" required>
+        <br>
+        <br>
+        
+        <div class="min-size"> 
+            <a href="">Forgot your password?</a><br />
+            <br> 
+            <center><button type="submit" id="logIn">Log in</button></center>  
+            <br>     
+            Don't you have an account? <a href="signup.html">Sign up</a>
+        </div>
     </form>
 </body>
 </html>

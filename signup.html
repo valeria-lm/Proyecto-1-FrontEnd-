@@ -8,55 +8,58 @@
     <title>TeachMe</title>
 </head>
 <body>
-      <form>
-          <h3>> Sign up</h3><br />
-          <h2>Welcome to TeachMe !</h2>
-          <br />
-          <br />
-          <center>
-              <button class="botones" type="button">
-                  <img src="fotos1/google1.png">
-                  Continue with Google
-              </button>
+    <form action="https://formspree.io/f/mpzbkrej" method="post"autocomplete="off">
+        <div>
+            <h3>> Sign up</h3><br>
+            <h2>Welcome to TeachMe !</h2>
+            <br>
+            <br>
+            <center>
+                <button class="botones" type="button">
+                    <img src="fotos1/google1.png">
+                    Continue with Google
+                </button>
 
-              <button class="botones" type="button">
-                  <img src="fotos1/facebook1.png">
-                  Continue with Facebook
-              </button>
-        </center>
-          <br />
-          <br />
+                <button class="botones" type="button">
+                    <img src="fotos1/facebook1.png">
+                    Continue with Facebook
+                </button>
+            </center>
+            <br>
+            <br>
 
-          <center>- OR -</center>
-          <br />
+            <center>- OR -</center>
+            <br>
+        </div>
 
-          <aside>  
-              Full name<br />
-              <input class="formulario" type="text" required="Oops! Don't forget to fill your name.">
-              <br />
-              <br />
-              Username<br />
-              <input class="formulario" type="text" required="Oops! Don't forget to create your user.">
-              <br />
-              <br />
-              Email Address<br />
-              <input class="formulario" type="email" required="Oops! Don't forget to add your email address.">
-              <br />
-              <br />
-              Password<br />
-              <input class="formulario" type="password" required="Oops! Don't forget to generate a password.">
-              <br />
-              <br />
-              Confirm Password<br />
-              <input class="formulario" type="password" required="Oops! Don't forget to repeat the password.">
-              <br />
-              <br />
-          </aside>
-          <input type="checkbox">Accept <a href="">Terms and Conditions</a><br />
-          <br />  
-          <center><input id="signUp" type="submit" value="SIGN UP"></center>  
-          <br />
-          Already have an account? <a href="login.html">Log in</a>  
-        </form>
+        <label for="text">Full name</label><br>
+        <input class="formulario" type="text" name="full name" id="texto" required>
+        <br>
+        <br>
+        <label for="user">Username</label><br>
+        <input class="formulario" type="text" name="username" id="nombre de usuario" required>
+        <br>
+        <br>
+        <label for="email">Email Address</label><br>
+        <input class="formulario" type="email" name="email" id="correo" required>
+        <br>
+        <br>
+        <label for="password">Password</label><br>
+        <input class="formulario" type="password" name="password" id="contraseña" required>
+        <br>
+        <br>
+        <label for="confirm password">Confirm Password</label><br>
+        <input class="formulario" type="password" name="confirm password" id="confirmar contraseña" required>
+        <br>
+        <br>
+    
+        <div class="min-size">
+            <input type="checkbox">Accept <a href="">Terms and Conditions</a><br>
+            <br>  
+            <center><button type="submit" id="signUp">Sign up</button></center>  
+            <br>
+            Already have an account? <a href="login.html">Log in</a>
+        </div>  
+    </form>
 </body>
 </html>
