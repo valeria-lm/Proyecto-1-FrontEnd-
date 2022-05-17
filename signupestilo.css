@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 body {
-    background-image: url(fotos1/TeachMe1.jpg);
+    background-image: url(fotos1/TeachMe1.png);
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
@@ -29,25 +29,51 @@ form h2 {
 
 form h3 {
     font-size: 20px;
+    color: #429bc8;
 }
 
 .botones {
     background-color: #fbfcfc;
-    padding: 10px;
+    padding: 12px 14px 12px 14px;
     font-family: 'Poppins', sans-serif;
     border-radius: 11px;
+    display: inline-flex;
+    border: solid 1px #809bb4;
+    width: 230px;
+    font-size: 14px;
+}
+
+.botones:hover {
+    background-color: #c4def746;
+}
+
+img{
+    padding-right: 10px;
 }
 
 .formulario {
     border-radius: 6px;
+    border: solid 1px #809bb4;
+    width: 250px;
+    height: 20px;
+}
+
+a {
+    text-decoration-color: #2d89b6;
+    color: #2d89b6;
 }
 
 #signUp {
-    background-color: #2c3e50;
+    background-color: #429bc8;
     padding: 13px 25px 13px 25px;
     border-radius: 18px;
     color: #fbfcfc;
     font-family: 'Poppins', sans-serif;
+    border:#429bc8 5px;
+}
+
+#signUp:hover {
+    background-color: #3488b3;
 }
 
 .min-size {
