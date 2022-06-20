@@ -2,14 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
 
 body {
-    background-image: url(fotos1/TeachMe1.png);
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
     color:  #2c3e50;
 }
 
-form {
+.background {
+    position: absolute;
+}
+
+.form-login {
+    background-color: #fbfcfc;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    float: right;
+    font-size: 15px;
+    padding: 100px 100px 150px 200px;
+    width: 580px;
+    height: 600px;
+
+}
+
+.form-signup {
     background-color: #fbfcfc;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 40px;
@@ -34,9 +49,9 @@ form h3 {
 
 .botones {
     background-color: #fbfcfc;
-    padding: 12px 14px 12px 14px;
-    font-family: 'Poppins', sans-serif;
+    padding: 10px;
     border-radius: 11px;
+    font-family: 'Poppins', sans-serif;
     display: inline-flex;
     border: solid 1px #809bb4;
     width: 230px;
@@ -61,6 +76,19 @@ img{
 a {
     text-decoration-color: #2d89b6;
     color: #2d89b6;
+}
+
+#logIn {
+    background-color: #429bc8;
+    padding: 13px 25px 13px 25px;
+    border-radius: 18px;
+    color:  #fbfcfc;
+    font-family: 'Poppins', sans-serif;
+    border:#429bc8 5px;
+}
+
+#logIn:hover {
+    background-color: #3488b3;
 }
 
 #signUp {
